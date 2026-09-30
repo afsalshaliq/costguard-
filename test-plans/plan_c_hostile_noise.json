@@ -1,0 +1,20 @@
+{
+  "format_version": "1.2", "terraform_version": "1.8.5",
+  "resource_changes": [
+    {"address":"azurerm_resource_group.rg","mode":"managed","type":"azurerm_resource_group","name":"rg","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_virtual_network.vnet","mode":"managed","type":"azurerm_virtual_network","name":"vnet","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_subnet.subnet1","mode":"managed","type":"azurerm_subnet","name":"subnet1","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{},"after_unknown":{}}},
+    {"address":"azurerm_subnet.subnet2","mode":"managed","type":"azurerm_subnet","name":"subnet2","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{},"after_unknown":{}}},
+    {"address":"azurerm_subnet.subnet3","mode":"managed","type":"azurerm_subnet","name":"subnet3","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{},"after_unknown":{}}},
+    {"address":"azurerm_subnet.subnet4","mode":"managed","type":"azurerm_subnet","name":"subnet4","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{},"after_unknown":{}}},
+    {"address":"azurerm_network_security_group.nsg","mode":"managed","type":"azurerm_network_security_group","name":"nsg","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_network_interface.nic","mode":"managed","type":"azurerm_network_interface","name":"nic","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_public_ip.ip1","mode":"managed","type":"azurerm_public_ip","name":"ip1","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_public_ip.ip2","mode":"managed","type":"azurerm_public_ip","name":"ip2","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_route_table.routes","mode":"managed","type":"azurerm_route_table","name":"routes","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_storage_account.logs","mode":"managed","type":"azurerm_storage_account","name":"logs","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_dns_zone.private","mode":"managed","type":"azurerm_dns_zone","name":"private","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{},"after_unknown":{}}},
+    {"address":"azurerm_key_vault.vault","mode":"managed","type":"azurerm_key_vault","name":"vault","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}},
+    {"address":"azurerm_role_assignment.reader","mode":"managed","type":"azurerm_role_assignment","name":"reader","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{},"after_unknown":{}}}
+  ]
+}

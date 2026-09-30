@@ -1,0 +1,6 @@
+{
+  "format_version": "1.2", "terraform_version": "1.8.5",
+  "resource_changes": [
+    {"address":"azurerm_linux_virtual_machine.tags","mode":"managed","type":"azurerm_linux_virtual_machine","name":"tags","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["update"],"before":{"location":"eastus","size":"Standard_B1s","tags":{"Team":"old"}},"after":{"location":"eastus","size":"Standard_B1s","tags":{"Team":"new"}},"after_unknown":{}}}
+  ]
+}

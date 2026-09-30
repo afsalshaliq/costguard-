@@ -1,0 +1,6 @@
+{
+  "format_version": "1.2", "terraform_version": "1.8.5",
+  "resource_changes": [
+    {"address":"azurerm_windows_virtual_machine.app","mode":"managed","type":"azurerm_windows_virtual_machine","name":"app","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus","size":"Standard_D2s_v3"},"after_unknown":{}}}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "format_version": "1.2", "terraform_version": "1.8.5",
+  "resource_changes": [
+    {"address":"azurerm_linux_virtual_machine.app","mode":"managed","type":"azurerm_linux_virtual_machine","name":"app","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["update"],"before":{"location":"East US","size":"Standard_B2s","tags":{"Team":"platform"}},"after":{"location":"eastus","size":"Standard_D2s_v3","tags":{"Team":"platform"}},"after_unknown":{}}},
+    {"address":"azurerm_linux_virtual_machine.old","mode":"managed","type":"azurerm_linux_virtual_machine","name":"old","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["delete"],"before":{"location":"eastus","size":"Standard_B1s"},"after":null,"after_unknown":{}}}
+  ]
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+costguard = costguard.cli:main
+costguard-gui = costguard.gui:main

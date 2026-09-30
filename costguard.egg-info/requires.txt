@@ -1,0 +1,6 @@
+
+[terminal]
+rich>=13
+
+[test]
+pytest>=8

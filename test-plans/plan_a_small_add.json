@@ -1,0 +1,9 @@
+{
+  "format_version": "1.2",
+  "terraform_version": "1.8.5",
+  "resource_changes": [
+    {"address":"azurerm_linux_virtual_machine.app","mode":"managed","type":"azurerm_linux_virtual_machine","name":"app","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"East US","size":"Standard_B1s","tags":{"Environment":"dev"}},"after_unknown":{}}},
+    {"address":"azurerm_managed_disk.data","mode":"managed","type":"azurerm_managed_disk","name":"data","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus","storage_account_type":"Premium_LRS","disk_size_gb":128,"tags":{}},"after_unknown":{}}},
+    {"address":"azurerm_resource_group.main","mode":"managed","type":"azurerm_resource_group","name":"main","provider_name":"registry.terraform.io/hashicorp/azurerm","change":{"actions":["create"],"before":null,"after":{"location":"eastus"},"after_unknown":{}}}
+  ]
+}

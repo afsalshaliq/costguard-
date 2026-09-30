@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: costguard
+Version: 0.1.0
+Summary: A Terraform Azure cost impact guardrail
+Requires-Python: >=3.11
+Provides-Extra: terminal
+Requires-Dist: rich>=13; extra == "terminal"
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"
